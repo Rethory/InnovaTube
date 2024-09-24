@@ -1,23 +1,53 @@
-# innovatube-jn
+#  InnovaTube - Plataforma de Videos Integrada con YouTube
 
-### innovatube-jn is a youtube clone made with react, redux, firebase and Youtube API. 
+## Descripción del Proyecto
 
+Este proyecto comenzó utilizando **Angular**, pero debido a restricciones de tiempo, se decidió migrar a **React**. El plan de trabajo se dividió en dos áreas principales: **Frontend** y **Backend**, integrando diversas tecnologías para ofrecer una plataforma robusta y eficiente.
 
-![](https://i.ytimg.com/vi/Mos5QJAje28/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCFbVeOdpHjPmjEkLBCOpvPJC5eMg)
+---
 
-## Installation
+## Tecnologías Utilizadas
 
-```bash
-npm run start
-```
+### Frontend:
+- **React.js**
+- **Redux** para la gestión de estado
+- **React icons** para el diseño y componentes visuales
 
-## The project is deployed on Firebase : 
-[innovatube-jn](https://innovatube-jn.web.app/)
+### Backend:
+-  **FireBase** como base de datos
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+### API y Servicios:
+- **YouTube API v3** para la integración de videos
+- **Autenticación** con Google
 
---- 
+### Hosting:
+- **GitHub** para el despliegue y hosting del proyecto
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+---
+
+## Funcionalidades Principales
+
+### Búsqueda de Videos
+Integración con la **YouTube API** que permite traer y buscar videos directamente desde YouTube.
+
+### Suscripciones
+Los usuarios pueden suscribirse a canales, y las suscripciones se guardan en la base de datos bajo el perfil de cada usuario. Esto permite mostrar una **sección personalizada de canales suscritos**.
+
+### Me Gusta
+Los usuarios pueden marcar videos como favoritos. Estos "Me gusta" se almacenan en la base de datos y se muestran en una **sección de videos favoritos** bajo el perfil de cada usuario.
+
+---
+
+## Cómo Ejecutar el Proyecto
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/Rethory/InnovaTube.git
+
+2. Instala las dependencias:
+   ```bash
+   npm install
+
+1. Ejecuta el proyecto localmente:
+   ```bash
+   npm start

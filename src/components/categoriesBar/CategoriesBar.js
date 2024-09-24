@@ -16,14 +16,14 @@ const keywords = [
    'Music',
    'Algorithm Art ',
    'Guitar',
-   'Bengali Songs',
+   'Travis Scott',
    'Coding',
    'Cricket',
    'Football',
    'Real Madrid',
-   'Gatsby',
-   'Poor Coder',
-   'Shwetabh',
+   'Future',
+   'Subroza',
+   'Cats',
 ]
 
 const CategoriesBar = () => {
